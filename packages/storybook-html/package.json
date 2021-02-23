@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -s ./public -p 6006",
     "storybook-docs": "start-storybook --docs -p 6007",
-    "build-storybook": "build-storybook -c .storybook -s ./public -o .out"
+    "build-storybook": "build-storybook -c .storybook -s ./public -o .out",
+    "chromatic": "npx chromatic --project-token de7ef9839bb9"
   },
   "keywords": [],
   "author": {
