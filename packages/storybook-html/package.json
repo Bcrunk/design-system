@@ -9,7 +9,8 @@
     "storybook": "start-storybook -s ./public -p 6006",
     "storybook-docs": "start-storybook --docs -p 6007",
     "build-storybook": "build-storybook -c .storybook -s ./public -o .out",
-    "chromatic": "npx chromatic --project-token de7ef9839bb9"
+    "chromatic": "npx chromatic --project-token de7ef9839bb9",
+    "chromatic": "chromatic --project-token de7ef9839bb9 --exit-zero-on-changes"
   },
   "keywords": [],
   "author": {
